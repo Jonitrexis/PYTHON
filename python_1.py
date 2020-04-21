@@ -1,0 +1,5 @@
+a= float(input("Cuboid length: "))
+b= float(input("Cuboid width: "))
+h= float(input("Cuboid height: "))
+print("Area",((a*b)+(h*b)+(a*h))*2)
+print("Volume: ",a*b*h)
